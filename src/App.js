@@ -26,7 +26,6 @@ function App() {
 
   const searchChangeHandler = async (enteredData) => {
     const [latitude, longitude] = enteredData.value.split(' ');
-
     setIsLoading(true);
 
     const currentDate = transformDateFormat();
